@@ -5,12 +5,13 @@ import { SearchContainerComponent } from './search-container/search-container.co
 import { SearchFilterComponent } from './search-filter/search-filter.component';
 import { CriteriaListComponent } from './criteria-list/criteria-list.component';
 import { LaunchesListComponent } from './launches-list/launches-list.component';
+import { LaunchesCounterComponent } from './launches-counter/launches-counter.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule
   ],
-  declarations: [SearchContainerComponent, SearchFilterComponent, CriteriaListComponent, LaunchesListComponent]
+  declarations: [SearchContainerComponent, SearchFilterComponent, CriteriaListComponent, LaunchesListComponent, LaunchesCounterComponent]
 })
 export class SearchModule { }
